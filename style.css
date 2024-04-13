@@ -5,10 +5,11 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f5f9fc; /* Subtle light blue background */
+    background-color: #FFFFFF; /* Subtle light blue background */
 }
 
 header {
@@ -17,9 +18,10 @@ header {
     padding: 1rem;
 }
 
+
 .hero {
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 nav ul {
@@ -33,9 +35,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #31708f;
     text-decoration: none;
+    color: #fff; /* White text color for nav links */
+    background-color: #6495ED; /* Cornflower Blue for the nav background */
+    padding: 10px 15px; /* Padding for better touch area */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
+
+nav ul li a:hover {
+    background-color: #4169E1; /* Royal blue color on hover */
+}
+
 
 main {
     padding: 2rem;
@@ -58,6 +69,50 @@ main {
 .feature img {
     max-width: 300px;
     margin-bottom: 1rem;
+}
+.introduction {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.introduction p {
+    margin-bottom: 1rem;
+}
+
+.features {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+.feature p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    margin-top: -7rem;
+    margin-bottom: -6rem;
+}
+
+.logo img {
+    max-width: 300px;
+    height: auto;
+}
+
+.tagline {
+    color: #31708f;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
 }
 
 footer {
